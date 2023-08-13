@@ -26,8 +26,8 @@ namespace HtmxDemo.Data
 
             return new Database
             {
-                Customers = customerFaker.Generate(5),
-                Tweets = tweetFaker.Generate(100)
+                Customers = customerFaker.Generate(51),
+                Tweets = tweetFaker.Generate(2001)
             };
         }
     }

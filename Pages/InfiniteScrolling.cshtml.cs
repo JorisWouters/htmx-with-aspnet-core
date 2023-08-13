@@ -34,7 +34,7 @@ namespace HtmxDemo.Pages
 
             // Artificial delay to simulate it taking some time to load the next set of records
             // For goodness sake, don't add this to your production code :D
-            await Task.Delay(2000);  
+            await Task.Delay(200);  
             
             return Partial("_TweetList", next20Tweets);
         }
